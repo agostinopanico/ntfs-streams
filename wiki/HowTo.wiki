@@ -1,3 +1,5 @@
+#summary How to start using ntfs-streams easy
+
   * if you dont have Linux installed - download and burn any modern Linux LiveCD like Ubuntu/Xubuntu/Kubuntu or Knoppix and start from it.
   * in Linux: open Webbrowser (Firefox), download ntfs-ads and extract it in you home directory.
   * open terminal and write:
