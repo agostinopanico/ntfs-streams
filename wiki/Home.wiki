@@ -4,6 +4,9 @@ Features:
     * reveal alternative data streams
     * allow to extract and delete all or particular stream
 
+
+
+
 Information about every stream:
 
 || *Information* || *comment* ||
@@ -13,6 +16,9 @@ Information about every stream:
 ||contents of the stream||	determined by the file command (stat + magic number test)||
 ||last access date/time	||atime||
 ||last modification date/time||	mtime||
+
+
+
 
 Comparison of Software to list/delete ADS
 || *feature\program*	|| *streams (sysinternals/msft)* || *lads* || *ntfs-streams* ||
