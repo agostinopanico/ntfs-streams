@@ -1,0 +1,19 @@
+  * if you dont have Linux installed - download and burn any modern Linux LiveCD like Ubuntu/Xubuntu/Kubuntu or Knoppix and start from it.
+  * in Linux: open Webbrowser (Firefox), download ntfs-ads and extract it in you home directory.
+  * open terminal and write:
+    {{{  
+sudo perl ntfs-ads.pl
+}}}
+and press enter.
+  * If you see something like
+      {{{zenity is not installed}}}
+then you need open the package manager and install missing packages. Currently only Xubunt and Knoppix-DVD have all needed packages on the board. In Ubuntu you need to install "attr", and in Kubuntu "attr" and "zenity", in Knoppix-CD - "zenity". Install them and try again.
+  *  Now you see this dialog where you can choose which ntfs partitions should be scanned for hidden files. Click OK. The scan begins now.
+
+http://compek.net/files/xubuntu0.png
+
+  * After a while you see this window with all hidden files. The path is in linux notation so instead of C:\file.txt you see something like /dev/sda1/file.txt. After a filename you see colon (:) and the other filename after it - it is the hidden file which we found. The are some Windows files like Zone.Identifier, DocumentSummaryInformation and SummaryInformation. If you see some hidden files with filetype "executable" or with extension exe, sys or dll - its very suspicious - extract them and check on www.virustotal.com. Choose files which you want to copy for examination and click OK to extract or Cancel to skip this step.
+
+http://compek.net/files/xubuntu.png
+
+   7. Now you see next dialog where you can choose which files to delete. Do this only if you know what you doing. Click Ok to delete or Cancel to exit the program. 
