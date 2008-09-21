@@ -73,10 +73,16 @@ Size always 0 Byte
 
 =read more about Alternate Data Streams=
 
-  *http://www.heysoft.de/nt/ntfs-ads.htm Home of LADS
-  *http://technet.microsoft.com/en-us/sysinternals/bb897440.aspx Home of STREAMS.EXE
-  *hijack9.googlepages.com/ntfsdoc.html#concept_file_data
-  *members.cox.net/slatteryt/Streams.html
-  *http://sedna-soft.de/summary-information-stream/
-  *www.infosecwriters.com/texts.php?op=display&id=53
-  *www.ochsenmeier.de/pdf/NtfsAlternateDataStreams.pdf
+http://www.heysoft.de/nt/ntfs-ads.htm Home of LADS
+
+http://technet.microsoft.com/en-us/sysinternals/bb897440.aspx Home of STREAMS.EXE
+
+http://hijack9.googlepages.com/ntfsdoc.html#concept_file_data
+
+http://members.cox.net/slatteryt/Streams.html
+
+http://sedna-soft.de/summary-information-stream/
+
+www.infosecwriters.com/texts.php?op=display&id=53
+
+www.ochsenmeier.de/pdf/NtfsAlternateDataStreams.pdf
