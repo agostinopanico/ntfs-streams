@@ -1,0 +1,43 @@
+Features:
+
+  * scan all disks and partitions
+  * reveal alternative data streams
+  * allow to extract and delete all or particular stream
+
+
+
+
+Information about every stream:
+
+| **Information** | **comment** |
+|:----------------|:------------|
+|drive/partition  | linix notation (/dev/hda or /dev/sda)|
+|file             | name	       |
+|size	            |Bytes        |
+|contents of the stream|	determined by the file command (stat + magic number test)|
+|last access date/time	|atime        |
+|last modification date/time|	mtime       |
+
+
+
+
+Comparison of Software to list/delete ADS
+| **feature\program**	| **streams (sysinternals/msft)** | **lads** | **ntfs-streams** |
+|:--------------------|:--------------------------------|:---------|:-----------------|
+|list	                |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) | ![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif)|	![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |
+|delete all streams   |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |
+|delete individual streams	|![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) | ![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif)|
+|copy/extract	        |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |
+|determine contents   |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |
+|show atime		         |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) | ![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif)|![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |
+|show mtime		         |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) | ![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif)| ![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif)|
+|cannot be cheated by windows rootkits?	|![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) | ![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif)|
+|no change atime?	    |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) | ![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif)|
+|show national characters correctly? (üöäøщξ) <sup>1</sup>	|![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) |
+|open source?	<sup>2</sup>		|![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/cross.gif](http://compek.net/files/cross.gif) |![http://compek.net/files/tick.gif](http://compek.net/files/tick.gif) 	|
+
+
+<sup>1</sup> locale and fonts should be installed
+
+
+<sup>2</sup> sources were closed after sysinternals was bought by MSFT
